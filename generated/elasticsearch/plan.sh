@@ -9,7 +9,7 @@ pkg_exports=(
   [http-port]=network.port
   [bind_proxy_host]=bind_proxy_host
 )
-pkg_exposes=( transport-port http-port bind_proxy_host )
+pkg_exposes=(http-port transport-port)
 do_begin() {
   return 0
 }

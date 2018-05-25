@@ -8,7 +8,7 @@ pkg_exports=(
   [metric-http-port]=listening_port
   [bind_proxy_host]=bind_proxy_host
 )
-pkg_exposes=( metric-http-port bind_proxy_host )
+pkg_exposes=(metric-http-port)
 do_begin() {
   return 0
 }

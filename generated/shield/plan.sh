@@ -10,7 +10,7 @@ pkg_exports=(
   [port]=port
   [bind_proxy_host]=bind_proxy_host
 )
-pkg_exposes=( provisioning_key http_port port bind_proxy_host )
+pkg_exposes=(http_port port)
 do_begin() {
   return 0
 }

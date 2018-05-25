@@ -8,7 +8,7 @@ pkg_exports=(
   [grafana_port]=listening_port
   [bind_proxy_host]=bind_proxy_host
 )
-pkg_exposes=( grafana_port bind_proxy_host )
+pkg_exposes=(grafana_port)
 do_begin() {
   return 0
 }

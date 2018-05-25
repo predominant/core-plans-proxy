@@ -9,7 +9,7 @@ pkg_exports=(
   [server-port]=etcd-server-end
   [bind_proxy_host]=bind_proxy_host
 )
-pkg_exposes=( client-port server-port bind_proxy_host )
+pkg_exposes=(client-port server-port)
 do_begin() {
   return 0
 }

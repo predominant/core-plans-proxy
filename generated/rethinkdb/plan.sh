@@ -10,7 +10,7 @@ pkg_exports=(
   [driver-port]=driver-port
   [bind_proxy_host]=bind_proxy_host
 )
-pkg_exposes=( http-port cluster-port driver-port bind_proxy_host )
+pkg_exposes=(http-port driver-port cluster-port)
 do_begin() {
   return 0
 }

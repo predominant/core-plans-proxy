@@ -1,2 +1,4 @@
+sleep = 3600
+bind_proxy_host = "127.0.0.1"
 
 grafana_port=1234

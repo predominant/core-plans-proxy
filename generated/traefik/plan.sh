@@ -10,7 +10,7 @@ pkg_exports=(
   [web_enabled]=web.enable
   [bind_proxy_host]=bind_proxy_host
 )
-pkg_exposes=( web_host web_port web_enabled bind_proxy_host )
+pkg_exposes=(port)
 do_begin() {
   return 0
 }

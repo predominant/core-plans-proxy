@@ -1,3 +1,5 @@
+sleep = 3600
+bind_proxy_host = "127.0.0.1"
 
 client-port=1234
 server-port=1234

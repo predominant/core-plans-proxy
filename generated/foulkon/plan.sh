@@ -9,7 +9,7 @@ pkg_exports=(
   [port]=service.port
   [bind_proxy_host]=bind_proxy_host
 )
-pkg_exposes=( host port bind_proxy_host )
+pkg_exposes=(port)
 do_begin() {
   return 0
 }

@@ -9,7 +9,7 @@ pkg_exports=(
   [port]=front-end.port
   [bind_proxy_host]=bind_proxy_host
 )
-pkg_exposes=( status-port port bind_proxy_host )
+pkg_exposes=(port status-port)
 do_begin() {
   return 0
 }

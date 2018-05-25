@@ -9,7 +9,7 @@ pkg_exports=(
   [forward-port]=input.forward.port
   [bind_proxy_host]=bind_proxy_host
 )
-pkg_exposes=( http-port forward-port bind_proxy_host )
+pkg_exposes=(forward-port http-port)
 do_begin() {
   return 0
 }

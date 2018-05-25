@@ -8,7 +8,7 @@ pkg_exports=(
   [prom_ds_http]=listening_port
   [bind_proxy_host]=bind_proxy_host
 )
-pkg_exposes=( prom_ds_http bind_proxy_host )
+pkg_exposes=(prom_ds_http)
 do_begin() {
   return 0
 }

@@ -10,7 +10,7 @@ pkg_exports=(
   [port]=port
   [bind_proxy_host]=bind_proxy_host
 )
-pkg_exposes=( superuser_password superuser_name port bind_proxy_host )
+pkg_exposes=(port)
 do_begin() {
   return 0
 }

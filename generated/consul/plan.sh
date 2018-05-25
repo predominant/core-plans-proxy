@@ -12,7 +12,7 @@ pkg_exports=(
   [port-serf_wan]=ports.serf_wan
   [bind_proxy_host]=bind_proxy_host
 )
-pkg_exposes=( port-server port-http port-dns port-serf_lan port-serf_wan bind_proxy_host )
+pkg_exposes=(port-dns port-http port-serf_lan port-serf_wan port-server)
 do_begin() {
   return 0
 }

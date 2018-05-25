@@ -10,7 +10,7 @@ pkg_exports=(
   [transport]=transport.tcp.port
   [bind_proxy_host]=bind_proxy_host
 )
-pkg_exposes=( http postgres transport bind_proxy_host )
+pkg_exposes=(http transport postgres)
 do_begin() {
   return 0
 }

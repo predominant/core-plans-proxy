@@ -8,7 +8,7 @@ pkg_exports=(
   [port]=jenkins.http.port
   [bind_proxy_host]=bind_proxy_host
 )
-pkg_exposes=( port bind_proxy_host )
+pkg_exposes=(port)
 do_begin() {
   return 0
 }

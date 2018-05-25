@@ -48,13 +48,13 @@ plan_path = \"${GENERATED_DIR}/${plan_name}\"
   for index in "${!pkg_exports[@]}"; do
     PLAN_EXPORT="${PLAN_EXPORT}  [${index}]=${pkg_exports[${index}]}
 "
-    PLAN_EXPOSE="${PLAN_EXPOSE} ${index}"
+    PLAN_EXPOSE="${PLAN_EXPOSE}${index} "
   done
 
   # Add in the proxy_host expose
   PLAN_EXPORT="${PLAN_EXPORT}  [bind_proxy_host]=bind_proxy_host
 )"
-  PLAN_EXPOSE="${PLAN_EXPOSE} bind_proxy_host )"
+  PLAN_EXPOSE="${PLAN_EXPOSE})"
 
   PLAN_CONTENT=$(cat <<ENDPLAN
 pkg_name="${pkg_name}"
@@ -64,7 +64,7 @@ pkg_maintainer="Graham Weldon <graham@grahamweldon.com>"
 pkg_description="${pkg_name} Binding Proxy - ${pkg_description}"
 pkg_deps=(core/busybox-static)
 ${PLAN_EXPORT}
-${PLAN_EXPOSE}
+pkg_exposes=(${pkg_exposes[@]})
 do_begin() {
   return 0
 }
@@ -103,10 +103,9 @@ ENDHOOK
 )
 echo "${HOOK_CONTENT}" > "${GENERATED_DIR}/${pkg_name}/hooks/run"
 
-DEFAULT_TOML=<<ENDTOML
-sleep = 3600
-bind_proxy_host = "127.0.0.1"
-ENDTOML
+DEFAULT_TOML="sleep = 3600
+bind_proxy_host = \"127.0.0.1\"
+"
 for index in "${!pkg_exports[@]}"; do
   DEFAULT_TOML="${DEFAULT_TOML}
 ${index}=1234"

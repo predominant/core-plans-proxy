@@ -8,7 +8,7 @@ pkg_exports=(
   [port]=zookeeper.clientPort
   [bind_proxy_host]=bind_proxy_host
 )
-pkg_exposes=( port bind_proxy_host )
+pkg_exposes=()
 do_begin() {
   return 0
 }

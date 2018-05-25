@@ -1,0 +1,89 @@
+[artifactory-pro]
+plan_path = "generated/artifactory-pro"
+[cerebro]
+plan_path = "generated/cerebro"
+[consul]
+plan_path = "generated/consul"
+[crate]
+plan_path = "generated/crate"
+[dex]
+plan_path = "generated/dex"
+[elasticsearch]
+plan_path = "generated/elasticsearch"
+[elasticsearch5]
+plan_path = "generated/elasticsearch5"
+[etcd]
+plan_path = "generated/etcd"
+[fluentd]
+plan_path = "generated/fluentd"
+[foulkon]
+plan_path = "generated/foulkon"
+[grafana]
+plan_path = "generated/grafana"
+[haproxy]
+plan_path = "generated/haproxy"
+[httpd]
+plan_path = "generated/httpd"
+[jenkins]
+plan_path = "generated/jenkins"
+[kibana]
+plan_path = "generated/kibana"
+[mariadb]
+plan_path = "generated/mariadb"
+[memcached]
+plan_path = "generated/memcached"
+[mention-bot]
+plan_path = "generated/mention-bot"
+[mongodb]
+plan_path = "generated/mongodb"
+[mssql]
+plan_path = "generated/mssql"
+[mysql]
+plan_path = "generated/mysql"
+[nginx]
+plan_path = "generated/nginx"
+[node_exporter]
+plan_path = "generated/node_exporter"
+[openldap]
+plan_path = "generated/openldap"
+[openresty]
+plan_path = "generated/openresty"
+[polipo]
+plan_path = "generated/polipo"
+[postgresql]
+plan_path = "generated/postgresql"
+[postgresql93]
+plan_path = "generated/postgresql93"
+[postgresql94]
+plan_path = "generated/postgresql94"
+[postgresql95]
+plan_path = "generated/postgresql95"
+[prometheus]
+plan_path = "generated/prometheus"
+[rabbitmq]
+plan_path = "generated/rabbitmq"
+[redis]
+plan_path = "generated/redis"
+[rethinkdb]
+plan_path = "generated/rethinkdb"
+[shield]
+plan_path = "generated/shield"
+[shield-agent]
+plan_path = "generated/shield-agent"
+[spark]
+plan_path = "generated/spark"
+[tomcat7]
+plan_path = "generated/tomcat7"
+[tomcat8]
+plan_path = "generated/tomcat8"
+[tor]
+plan_path = "generated/tor"
+[traefik]
+plan_path = "generated/traefik"
+[varnish]
+plan_path = "generated/varnish"
+[vault]
+plan_path = "generated/vault"
+[zookeeper]
+plan_path = "generated/zookeeper"
+

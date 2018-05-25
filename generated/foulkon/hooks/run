@@ -1,0 +1,9 @@
+#!/bin/sh
+
+exec 2>&1
+echo "foulkon proxy starting"
+
+while true; do
+  echo "foulkon proxy alive"
+  sleep {{cfg.sleep}}
+done

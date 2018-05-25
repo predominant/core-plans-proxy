@@ -1,0 +1,9 @@
+#!/bin/sh
+
+exec 2>&1
+echo "postgresql95 proxy starting"
+
+while true; do
+  echo "postgresql95 proxy alive"
+  sleep {{cfg.sleep}}
+done

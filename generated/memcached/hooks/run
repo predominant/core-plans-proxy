@@ -1,0 +1,9 @@
+#!/bin/sh
+
+exec 2>&1
+echo "memcached proxy starting"
+
+while true; do
+  echo "memcached proxy alive"
+  sleep {{cfg.sleep}}
+done

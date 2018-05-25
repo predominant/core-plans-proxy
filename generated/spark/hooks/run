@@ -1,0 +1,9 @@
+#!/bin/sh
+
+exec 2>&1
+echo "spark proxy starting"
+
+while true; do
+  echo "spark proxy alive"
+  sleep {{cfg.sleep}}
+done

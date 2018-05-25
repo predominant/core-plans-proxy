@@ -1,0 +1,6 @@
+
+port-server=1234
+port-http=1234
+port-dns=1234
+port-serf_lan=1234
+port-serf_wan=1234

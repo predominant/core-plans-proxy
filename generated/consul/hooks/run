@@ -1,0 +1,9 @@
+#!/bin/sh
+
+exec 2>&1
+echo "consul proxy starting"
+
+while true; do
+  echo "consul proxy alive"
+  sleep {{cfg.sleep}}
+done

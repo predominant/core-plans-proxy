@@ -1,0 +1,9 @@
+#!/bin/sh
+
+exec 2>&1
+echo "mention-bot proxy starting"
+
+while true; do
+  echo "mention-bot proxy alive"
+  sleep {{cfg.sleep}}
+done

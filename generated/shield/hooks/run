@@ -1,0 +1,9 @@
+#!/bin/sh
+
+exec 2>&1
+echo "shield proxy starting"
+
+while true; do
+  echo "shield proxy alive"
+  sleep {{cfg.sleep}}
+done

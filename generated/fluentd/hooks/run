@@ -1,0 +1,9 @@
+#!/bin/sh
+
+exec 2>&1
+echo "fluentd proxy starting"
+
+while true; do
+  echo "fluentd proxy alive"
+  sleep {{cfg.sleep}}
+done

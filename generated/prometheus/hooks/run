@@ -1,0 +1,9 @@
+#!/bin/sh
+
+exec 2>&1
+echo "prometheus proxy starting"
+
+while true; do
+  echo "prometheus proxy alive"
+  sleep {{cfg.sleep}}
+done

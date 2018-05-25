@@ -57,7 +57,7 @@ plan_path = \"${GENERATED_DIR}/${plan_name}\"
   PLAN_EXPOSE="${PLAN_EXPOSE})"
 
   PLAN_CONTENT=$(cat <<ENDPLAN
-pkg_name="${pkg_name}"
+pkg_name="${pkg_name}-proxy"
 pkg_origin="${HAB_ORIGIN}"
 pkg_version="${pkg_version}"
 pkg_maintainer="Graham Weldon <graham@grahamweldon.com>"

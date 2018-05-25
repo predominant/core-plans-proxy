@@ -86,4 +86,3 @@ plan_path = "generated/varnish"
 plan_path = "generated/vault"
 [zookeeper]
 plan_path = "generated/zookeeper"
-
